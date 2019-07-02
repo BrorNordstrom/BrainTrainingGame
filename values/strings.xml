@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Brain Training Game</string>
+    <string name="new_game">New Game</string>
+    <string name="continue_">Continue</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="save">Save</string>
+    <string name="dont_save">Don\'t Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="novice">Novice</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="guru">Guru</string>
+    <string name="hint">Hint</string>
+    <string name="guess">"Guess : "</string>
+    <string name="equals">" = "</string>
+    <string name="quiz">" ? "</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="del">Del</string>
+    <string name="num_0">0</string>
+    <string name="equal_mark">#</string>
+    <string name="minus">-</string>
+    <string name="time_remaining">"Time Remaining : "</string>
+    <string name="second">secs</string>
+    <string name="total_time">10</string>
+    <string name="end_game">End Game</string>
+    <string name="correct">CORRECT</string>
+    <string name="wrong">WRONG</string>
+    <string name="less">less</string>
+    <string name="greater">greater</string>
+    <string name="total_score">Total Score</string>
+    <string name="to_main">To Main</string>
+</resources>

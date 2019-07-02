@@ -1,0 +1,5 @@
+Welcome to The Brain Training Game.
+This application is a basic brain training game, which asks the users to calculate the answers of the various arithmetic expressions.
+There are four different levels of difficulties, as well as hints available to allow users to retry in case they answer incorrectly.
+The game can be exited and saved during any stage of the game, and continued when desired.
+The Exit button will terminate the application.

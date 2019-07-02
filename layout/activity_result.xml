@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.andreasnordstrom.madcw1.activity.ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_12"
+        android:layout_margin="@dimen/dimen_5"
+        android:text="@string/total_score"/>
+
+    <TextView
+        android:id="@+id/text_total_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_15"
+        android:layout_marginBottom="@dimen/dimen_20"/>
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:onClick="gotoMain"
+        android:text="@string/to_main"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.andreasnordstrom.madcw1.activity.SettingActivity">
+
+    <Button
+        android:id="@+id/button_novice"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:text="@string/novice"/>
+
+    <Button
+        android:id="@+id/button_easy"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:text="@string/easy"/>
+
+    <Button
+        android:id="@+id/button_medium"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:text="@string/medium"/>
+
+    <Button
+        android:id="@+id/button_guru"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:text="@string/guru"/>
+
+    <CheckBox
+        android:id="@+id/check_hint"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+       android:text="@string/hint"/>
+
+</LinearLayout>

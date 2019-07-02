@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.andreasnordstrom.madcw1.activity.StartActivity">
+
+    <Button
+        android:id="@+id/button_new_game"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:onClick="startGame"
+        android:text="@string/new_game"/>
+
+    <Button
+        android:id="@+id/buttneon_continue"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:onClick="continueGame"
+        android:text="@string/continue_"/>
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:onClick="about"
+        android:text="@string/about"/>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="wrap_content"
+        android:onClick="exitGame"
+        android:text="@string/exit"/>
+
+</LinearLayout>
